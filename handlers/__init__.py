@@ -4,8 +4,8 @@ from .notebook import create_notebook, list_notebooks, use_notebook
 from .source import add_source, list_sources, research_and_add
 from .qa import ask_question
 from .generate import (
-    handle_generate_audio,
-    handle_generate_video,
+    generate_audio,
+    generate_video,
     handle_generate_slide,
     handle_generate_infographic,
     handle_generate_mindmap,
@@ -32,8 +32,8 @@ __all__ = [
     'ask_question',
     
     # generate
-    'handle_generate_audio',
-    'handle_generate_video',
+    'generate_audio',
+    'generate_video',
     'handle_generate_slide',
     'handle_generate_infographic',
     'handle_generate_mindmap',
