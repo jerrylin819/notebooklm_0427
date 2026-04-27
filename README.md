@@ -144,10 +144,8 @@ python main.py
 首次執行時，程式會要求你登入 Google 帳號：
 
 ```bash
-python main.py
-
-# 按照提示登入，會自動開啟瀏覽器
-# 登入完成後，按 Enter 繼續
+執行notebooklm login 進行登入
+執行 main.py 後即可開始使用
 ```
 
 ---
@@ -157,6 +155,7 @@ python main.py
 ### **終端機模式**
 
 ```bash
+notebooklm login 進行登入
 python main.py
 
 # 輸入「選單」查看所有功能
