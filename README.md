@@ -467,9 +467,6 @@ flake8
 ### **提交 Issue**
 - 前往 GitHub Issues 頁面
 
-### **聯絡方式**
-- 📧 Email: your-email@example.com
-- 💬 Telegram: @your_username
 
 ---
 
